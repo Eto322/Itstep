@@ -1,183 +1,236 @@
-﻿
-
-#include<iostream>
-
+#include <iostream>
+#include <string>
+#include <ctime>
 using namespace std;
 
-template <class T>
 
-class NotVector
+template<class T>
+
+class Stack
 {
 public:
-	NotVector():
-		_array{ nullptr },
-		_size{ 0 }
-	{};
-	NotVector(int size):
-		_array{ new T[size] },
-		_size{ size }
-	{};
+	void push(T);
+	T pop();
+	T peek();
+	void clear();
+	bool is_empty();
+	bool is_full();
+	int get_count();
 	
-	NotVector(const NotVector& tmp)//copy construct
-	{
-		_size = tmp._size;
-		_array = new T[_size];
-		
-	}
-
-	void add_to_end(T);
-	void del_element(int);
-	int find_element(T);
-	void bubble_sotr();
-	
-	
-	void out_array();
-	void operator+(NotVector&);
-	T get_element(int);
-
-	void fill_arr();
-	int get_size();
-	~NotVector();
-
 private:
-	T* _array;
-	int _size;
+	T _arr[50];
+	int _ptr=-1;
 };
 
 
-int main()
-{
-	srand(time(0));
 
+template<class T>
+void Stack<T>::push(T value)
+{
+	if (!is_full())
+	{
+		cout << "push" << endl;
+		_arr[++_ptr] = value;
+
+	}
+	else
+	{
+		cout << "cannot push stack full" << endl;
+	}
+}
+
+
+
+template<>
+void Stack<char>::push(char value)
+{
+	if (!is_full())
+	{
+		
+		_arr[++_ptr] = value;
+
+	}
 	
+}
+
+
+template<class T>
+T Stack<T>::pop()
+{
+	if (!is_empty())
+	{
+		cout << "pop" << endl;
+		return _arr[_ptr--];
+	}
+	cout << "cannot pop stack is empty" << endl;
+	return -1;
+}
 
 
 
+template<>
+char Stack<char>::pop()
+{
+	if (!is_empty())
+	{
+		
+		return _arr[_ptr--];
+	}
+	
 }
 
 template<class T>
-void NotVector<T>::add_to_end(T value)
+T Stack<T>::peek()
 {
-	T* tmp = new T[_size + 1];
-	for (int i = 0; i < _size; i++)
+	if (!is_empty())
 	{
-		tmp[i] = _array[i];
+		cout << "peek" << endl;
+		return _arr[_ptr];
 	}
-	tmp[_size] = value;
-	_size++;
-	delete[] _array;
-	_array = tmp;
-
-}
-
-template<class T>
-void NotVector<T>::del_element(int index)
-{
-	T* tmp = new T[_size - 1];
-	int j=0;
-	for (int i = 0; i < _size; i++)
-	{
-		if (i!=index)
-		{
-			tmp[j] = _array[i];
-			j++;
-		}
-	}
-	delete[] _array;
-	_size--;
-	_array = tmp;
-}
-
-template<class T>
-int NotVector<T>::find_element(T value)
-{
-	for (int i = 0; i < _size; i++)
-	{
-		if (_array[i]==value)
-		{
-			return i;
-		}
-	}
+	cout << "cannot peek ,stack empty" << endl;
 	return -1;
 }
 
 template<class T>
-void NotVector<T>::bubble_sotr()
+void Stack<T>::clear()
+{	cout<<"Stack cleared"<<endl;
+	_ptr = -1;
+}
+
+template<class T>
+bool Stack<T>::is_empty()
 {
-	
-	T tmp; 
-	for (int i = 0; i < _size-1; i++)
-	{
-		for (int j = 0; j < _size-i-1; j++)
+	return _ptr==-1;
+}
+
+template<class T>
+bool Stack<T>::is_full()
+{
+	return _ptr==50-1;
+}
+
+template<class T>
+int Stack<T>::get_count()
+{
+	return _ptr+1;
+}
+
+
+
+void ex1()
+{
+	Stack<int> tmp;
+	int k;
+	int value;
+	while (true)
+	{	
+
+		system("pause");
+		system("cls");
+		
+		cout << "1.push number" << endl;
+		cout << "2.pop last" << endl;
+		cout << "3.get count" << endl;
+		cout << "4.clear stack" << endl;
+		cout << "5.peek on last" << endl;
+		cout << "6. exit" << endl;
+		cin >> k;
+
+		switch (k)
 		{
-			if (_array[j]>_array[j+1])
+		case 1:
+			cout << "Enter value" << endl;
+			cin >> value;
+			tmp.push(value);
+			break;
+		case 2:
+			tmp.pop();
+			break;
+		case 3:
+			cout <<"count: "<< tmp.get_count() << endl;
+			break;
+		case 4:
+			tmp.clear();
+			break;
+		case 5:
+			cout << tmp.peek() << endl;
+			break;
+		case 6:
+			return;
+			break;
+		default:
+			break;
+		}
+
+	}
+}
+void ex2()
+{
+	Stack<char> tmp;
+	string word;
+	cout << "Enter word" << endl;
+	getline(cin, word);
+	for (int i = 0; i < word.length(); i++)
+	{
+		tmp.push(word[i]);
+	}
+
+	for (int i = 0; i < word.length(); i++)
+	{
+		cout << tmp.pop();
+	}
+}
+void ex3()
+{
+	Stack<char> tmp;
+	string word;
+	cout << "Enter brackets" << endl;
+	getline(cin, word);
+
+	for (int i = 0; i < word.length(); i++)
+	{
+		tmp.push(word[i]);
+	}
+	int counter = 0;
+	char bracket;
+	for (int i = 0; i < word.length(); i++)
+	{
+		bracket = tmp.pop();
+		if (bracket ==')')
+		{
+			counter++;
+		}
+		if (bracket =='(')
+		{
+			counter--;
+			if (counter<0)
 			{
-				tmp = _array[j];
-				_array[j] = _array[j + 1];
-				_array[j + 1] = tmp;
+				cout << "not ok" << endl;
+				return;
 			}
 		}
 	}
+
+	if (counter==0)
+	{
+		cout << "ok" << endl;
+	}
+	else
+	{
+		cout << "not ok" << endl;
+	}
+
 }
 
-template<class T>
-void NotVector<T>::out_array()
+
+int main()
 {
-	for (int i = 0; i < _size; i++)
-	{
-		cout << _array[i] << " ";
-	}
+	cout << "EX 1" << endl;
+	ex1();
+	cin.ignore();
+	cout << "EX 2" << endl;
+	ex2();
 	cout << endl;
+	cout << "EX 3" << endl;
+	ex3();
 }
-
-template<class T>
-void NotVector<T>::operator+(NotVector&tmp)
-{
-	T*tmp1 = new T[tmp.get_size() + _size];
-	for (int i = 0; i < _size; i++)
-	{
-		tmp1[i] = _array[i];
-
-	}
-	for (int i = 0; i < tmp.get_size(); i++)
-	{
-		tmp1[i+_size] = tmp.get_element(i);
-	}
-	_size += tmp.get_size();
-	delete[] _array;
-	_array = tmp1;
-
-}
-
-template<class T>
-T NotVector<T>::get_element(int index)
-{
-	return _array[index];
-}
-
-template<class T>
-void NotVector<T>::fill_arr()
-{
-	
-	for (int i = 0; i < _size;i++)
-	{
-		_array[i] = rand() % 10;
-	}
-}
-
-
-
-template<class T>
-int NotVector<T>::get_size()
-{
-	return _size;
-}
-
-template<class T>
-NotVector<T>::~NotVector()
-{
-	delete[] _array;
-}
-
-
-
