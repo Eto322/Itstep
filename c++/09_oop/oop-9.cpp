@@ -1,4 +1,12 @@
-﻿
+﻿/*Создать класс шаблонный DynamicArray, который позволяет работать с одномерным динамическим массивом. Реализовать:
+* конструктор копирования
+* метод для добавления элемента в массив
+* метод для удаления элемента из массива
+* метод для поиска элемента в массиве
+* метод для сортировки массива
+* метод для вывода массива на экран
+* метод, который принимает объект класса DynamicArray и добавляет к текущему массиву элементы массива переданного объекта.
+* конструктор, деструктор*/
 
 #include<iostream>
 
@@ -43,12 +51,91 @@ private:
 	T* _array;
 	int _size;
 };
+template <class T>
+void ex(NotVector<T>&tmp1,NotVector<T>&tmp2)
+{
+	
+	
+	int k;
+	T value;
+	tmp1.fill_arr();
+	tmp2.fill_arr();
+	while (true)
+	{
+		system("pause");
+		system("cls");
+		cout << "Array 1" << endl;
+		tmp1.out_array();
+		cout << "Array 2" << endl;
+		tmp2.out_array();
+		
+		cout << "1.add element" << endl;
+		cout << "2.del element" << endl;
+		cout << "3.find element" << endl;
+		cout << "4.sort arr" << endl;
+		cout << "5.add second to first" << endl;
+		cout << "6.exit" << endl;
+		cin >> k;
+		switch (k)
+		{
+		case 1:
+			cout << "Enter element to add" << endl;
+			cin >> value;
+			tmp1.add_to_end(value);
+			break;
+		case 2:
+			cout << "Enter index to delete" << endl;
+			cin >> value;
+			tmp1.del_element(value);
+			break;
+		case 3:
+			cout << "Enter element to find" << endl;
+			cin >> value;
+			cout<<tmp1.find_element(value);
+			break;
+		case 4:
+			tmp1.bubble_sotr();
+			break;
+		case 5:
+			tmp1 + tmp2;
+			break;
+		case 6:
+			return;
+		default:
+			break;
+		}
 
 
+
+	}
+
+	
+}
 int main()
 {
 	srand(time(0));
+	int k;
+	cout << "sellect array type" << endl;
+	cout << "1.int" << endl;
+	cout << "2.float" << endl;
+	
+	cin >> k;
+	
+	if (k==1)
+	{
+		NotVector<int>tmp(5);
+		NotVector<int>tmp2(tmp);
+		ex(tmp, tmp2);
+	}
 
+	if (k==2)
+	{
+		NotVector<float>tmp(5);
+		NotVector<float>tmp2(tmp);
+		ex(tmp, tmp2);
+	}
+	
+	
 	
 
 
@@ -178,6 +265,8 @@ NotVector<T>::~NotVector()
 {
 	delete[] _array;
 }
+
+
 
 
 
