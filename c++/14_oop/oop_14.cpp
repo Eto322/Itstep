@@ -169,7 +169,7 @@ public:
 	int Dequeue()
 	{
 		int value;
-		value=_ls.remove(_count-1);
+		value=_ls.remove(0);
 		_count--;
 		return value;
 	}
