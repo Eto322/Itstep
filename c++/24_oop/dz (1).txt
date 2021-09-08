@@ -1,0 +1,4 @@
+Прочитать информацию про reinterpret_cast.
+https://docs.microsoft.com/en-us/cpp/cpp/reinterpret-cast-operator?view=msvc-160
+https://www.geeksforgeeks.org/reinterpret_cast-in-c-type-casting-operators/
+и все что найдете сами ;-)
