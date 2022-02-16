@@ -1,0 +1,16 @@
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.csproj.AssemblyReference.cache
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\View\MainView.g.cs
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\App.g.cs
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6_MarkupCompile.cache
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6_MarkupCompile.lref
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\dz6.exe.config
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\dz6.exe
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\dz6.pdb
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\View\MainView.baml
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.g.resources
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.Properties.Resources.resources
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.csproj.GenerateResource.cache
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.csproj.CoreCompileInputs.cache
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.exe
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.pdb

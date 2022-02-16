@@ -1,0 +1,132 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <Label RenderTransformOrigin="0.555,0.521" Height="24" Width="121" Canvas.Left="171" Foreground="Green">ЧИТАЙТЕ БАРКОД</Label>
+        <StackPanel Height="434" Width="166">
+            <Button Height="70"  Foreground="Blue" FontSize="20" AllowDrop="True" Content="F2.Оплата&#xD;&#xA; наличными"/>
+            <Button Height="70"  Foreground="Red"  FontSize="20" AllowDrop="True" Content="F4.Удалить &#xD;&#xA;Посл.товар&#xD;&#xA;"/>
+            <Button Height="70"  Foreground="BlueViolet"  FontSize="20" AllowDrop="True" Content="F6.Скидка&#xD;&#xA; за дефект"/>
+            <Button Height="70"  Foreground="Green" FontSize="20" AllowDrop="True" Content="F9.Замена&#xA; Карточки"/>
+            <Button Height="70"  Foreground="DarkRed" FontSize="20" AllowDrop="True" Content="F10.Отмена&#xD;&#xA;Чека"/>
+            <Button Height="86"  Foreground="DeepSkyBlue" FontSize="20" AllowDrop="True" Content="F12.Выход"/>
+
+        </StackPanel>
+        <Label Height="25" Width="483" Canvas.Left="166" Canvas.Top="67">список Товаров</Label>
+        <TextBox Canvas.Left="166" Canvas.Top="67" Height="2" Width="483"></TextBox>
+        <DockPanel Height="69" Width="634" Canvas.Left="166">
+
+
+            <TextBox Height="30" Width="153" Background="LightGreen">
+
+            </TextBox>
+
+            <TextBox Width="179" Foreground="Blue" FontSize="20" Text="ЧЕК 17633&#xD;&#xA;0:00"/>
+        </DockPanel>
+        <StackPanel Height="436" Width="151" Canvas.Left="649">
+            <TextBox FontSize="15" FontStyle="Italic" >к оплате</TextBox>
+            <TextBox Foreground="Blue" FontSize="40" Height="49" Text="1549,99"  IsReadOnly="True"/>
+            <TextBox Height="125" IsReadOnly="True"></TextBox>
+            <TextBox IsReadOnly="True" Height="238"></TextBox>
+        </StackPanel>
+
+        <Grid Height="65" Width="483" Canvas.Left="166" Canvas.Top="97">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="22"  ></RowDefinition>
+                <RowDefinition Height="22"></RowDefinition>
+                <RowDefinition Height="66"></RowDefinition>
+                <RowDefinition Height="66"></RowDefinition>
+            </Grid.RowDefinitions>
+            <WrapPanel Grid.Row="0">
+                <TextBox Height="22" VerticalAlignment="Top" Background="Gray">#</TextBox>
+                <TextBox Height="22" VerticalAlignment="Center" Background="Gray" Width="86" >КОД</TextBox>
+                <TextBox Height="22" VerticalAlignment="Center"  Text="Артикул" TextAlignment="Center" Width="134" Background="Gray"/>
+                <TextBox Height="22" VerticalAlignment="Top"  Text="Размер" Width="49" Background="Gray"/>
+                <TextBox Height="22" VerticalAlignment="Top" Text="К-во" Width="31" Background="Gray"/>
+                <TextBox Height="22" VerticalAlignment="Top"  Text="Цена" Width="49" Background="Gray" />
+                <TextBox Height="22" VerticalAlignment="Center" Text="Скидки" TextAlignment="Center" Width="45" Background="Gray"/>
+                <TextBox Height="22" VerticalAlignment="Center"  Text="Оконч.цена" Width="75" Background="Gray" />
+
+            </WrapPanel>
+
+            <WrapPanel Grid.Row="1">
+                <TextBox Height="22" VerticalAlignment="Top" >#</TextBox>
+                <TextBox Height="22" VerticalAlignment="Top"  Width="86" >000000000000</TextBox>
+                <TextBox Height="22" VerticalAlignment="Center"   Text="Артикул" TextAlignment="Center" Width="134"/>
+                <TextBox Height="22" VerticalAlignment="Top"  Text="Размер"  Width="49"/>
+                <TextBox Height="22" VerticalAlignment="Top" Text="К-во" Width="31" />
+                <TextBox Height="22" VerticalAlignment="Top"  Text="Цена" Width="49"  />
+                <TextBox Height="22" VerticalAlignment="Center" Text="Скидки" TextAlignment="Center" Width="45"/>
+                <TextBox Height="22" VerticalAlignment="Center"  Text="Оконч.цена" Width="75"  />
+
+            </WrapPanel>
+            <WrapPanel Margin="0,0,0,46" Grid.Row="2">
+                <TextBox Height="22" VerticalAlignment="Top" >#</TextBox>
+                <TextBox Height="22" VerticalAlignment="Top" Width="86"  >КОД</TextBox>
+                <TextBox Height="22" VerticalAlignment="Center"   Text="Артикул" TextAlignment="Center" Width="134" />
+                <TextBox Height="22" VerticalAlignment="Top"  Text="Размер" Width="49" />
+                <TextBox Height="22" VerticalAlignment="Top" Text="К-во" Width="31"/>
+                <TextBox Height="22" VerticalAlignment="Top"  Text="Цена" Width="49" />
+                <TextBox Height="22" VerticalAlignment="Center" Text="Скидки" TextAlignment="Center" Width="45" />
+                <TextBox Height="22" VerticalAlignment="Center"  Text="Оконч.цена" Width="75"/>
+
+            </WrapPanel>
+
+
+
+
+
+
+
+
+        </Grid>
+        <WrapPanel Canvas.Left="166" Canvas.Top="312" Height="34" Width="483">
+            <TextBox Text="2 строк" Width="271"></TextBox>
+            <TextBox Width="25" Text="2"></TextBox>
+            <TextBox Text="1658" Width="38" Foreground="Red"></TextBox>
+
+            <TextBox Background="Gray" FontWeight="Bold" Text="118" Width="54"></TextBox>
+        </WrapPanel>
+
+        <Grid Height="87" Width="483" Canvas.Left="166" Canvas.Top="329">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBox Grid.Row="0" Grid.ColumnSpan="4" Text="Накопительная Карта" FontWeight="Bold"></TextBox>
+            <TextBox Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2" Text="Допол карта" FontWeight="Bold"></TextBox>
+
+            <TextBox Grid.Row="1" Grid.Column="0"  Text=" # Карточки" Background="Gray"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="1" Text="покупатель"  Background="Gray"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="2" Text="Скидка"  Background="Gray"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="3" Text="Баллы" Background="Gray"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="4" Text="Описание" Background="Gray"></TextBox>
+            <TextBox Grid.Row="1" Grid.Column="5" Text="Скидка"  Background="Gray"></TextBox>
+
+            <TextBox Grid.Row="2" Grid.Column="0"  Text="1234567" ></TextBox>
+            <TextBox Grid.Row="2" Grid.Column="1" Text="Алежик"  ></TextBox>
+            <TextBox Grid.Row="2" Grid.Column="2" Text="Бонус(-10.-0)"  ></TextBox>
+            <TextBox Grid.Row="2" Grid.Column="3" Text="1337" ></TextBox>
+            <TextBox Grid.Row="2" Grid.Column="4" Text="" ></TextBox>
+            <TextBox Grid.Row="2" Grid.Column="5" Text="" ></TextBox>
+
+
+        </Grid>
+    </Canvas>
+</Window>

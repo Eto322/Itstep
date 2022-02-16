@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="798">
+    <Canvas>
+        <WrapPanel>
+            <Button Content="создать" Width="93" />
+            <Button Content="Изменить" Width="111"/>
+            <Button Content="Удалить" Width="89"/>
+            <Button Content="Сохранить" Width="101"/>
+            <Button Content="Сохранить как" Width="111"/>
+            <Button Content="Открыть" Width="86"/>
+            <Button Content="Выход" Width="50"/>
+            <Button Content="Завершить сеанс" RenderTransformOrigin="0.5,0.5" Width="150">
+
+            </Button>
+
+        </WrapPanel>
+        <StackPanel Width="223" Height="419">
+
+            <Button Content="Почта" Margin="0,30,0,0"/>
+            <Button Content="Календарь" Margin="0,10,0,0"/>
+            <Button Content="Задачи" Margin="0,10,0,0"/>
+            <Button Content="Журнал" Margin="0,10,0,0"/>
+            <Button Content="Еще почта" Margin="0,10,0,0"/>
+
+
+
+        </StackPanel>
+        <TextBlock Canvas.Bottom="20" Canvas.Left="235" Canvas.Top="32" Width="547" Height="327">
+            9:00 Начало Занятия (утро) <LineBreak/>
+            10:25 Переменя <LineBreak/>
+            10:35 Начало Второй пары<LineBreak/>
+            12:00 Конец занятия
+
+        </TextBlock>
+    </Canvas>
+
+
+</Window>

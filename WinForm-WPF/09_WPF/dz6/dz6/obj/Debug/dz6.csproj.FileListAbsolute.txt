@@ -1,0 +1,104 @@
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.csproj.AssemblyReference.cache
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\View\MainView.g.cs
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\App.g.cs
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6_MarkupCompile.cache
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6_MarkupCompile.lref
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\dz6.exe.config
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\dz6.exe
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\dz6.pdb
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\View\MainView.baml
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.g.resources
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.Properties.Resources.resources
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.csproj.GenerateResource.cache
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.csproj.CoreCompileInputs.cache
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.exe
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.pdb
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\System.Buffers.dll
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\System.Memory.dll
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\System.ValueTuple.dll
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\System.Buffers.xml
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\System.Memory.xml
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\System.ValueTuple.xml
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.csproj.SuggestedBindingRedirects.cache
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.csproj.CopyComplete
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\Resources\Resource.resx
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\Resources\Resource.ru-RU.resx
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\Resources\Resource.en-US.resx
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\Resources\Resource.ru-RU.Designer.cs
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\Resources\Resource.en-US.Designer.cs
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\Resources\Resource.Designer.cs
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\ru-RU\dz6.resources.dll
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\en-US\dz6.resources.dll
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\Infralution.Localization.Wpf.dll
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\bin\Debug\Infralution.Localization.Wpf.xml
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.Resources.Resource.resources
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.Resources.Resource.ru-RU.resources
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\dz6.Resources.Resource.en-US.resources
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\ru-RU\dz6.resources.dll
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\en-US\dz6.resources.dll
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\View\Window1.g.cs
+C:\Users\Home Nout\source\repos\WPF_KROK\dz6\dz6\obj\Debug\View\Window1.baml
+D:\вя\dz6\dz6\bin\Debug\Resources\Resource.resx
+D:\вя\dz6\dz6\bin\Debug\Resources\Resource.ru-RU.resx
+D:\вя\dz6\dz6\bin\Debug\Resources\Resource.en-US.resx
+D:\вя\dz6\dz6\bin\Debug\Resources\Resource.ru-RU.Designer.cs
+D:\вя\dz6\dz6\bin\Debug\Resources\Resource.en-US.Designer.cs
+D:\вя\dz6\dz6\bin\Debug\Resources\Resource.Designer.cs
+D:\вя\dz6\dz6\bin\Debug\dz6.exe.config
+D:\вя\dz6\dz6\bin\Debug\dz6.exe
+D:\вя\dz6\dz6\bin\Debug\dz6.pdb
+D:\вя\dz6\dz6\bin\Debug\ru-RU\dz6.resources.dll
+D:\вя\dz6\dz6\bin\Debug\en-US\dz6.resources.dll
+D:\вя\dz6\dz6\bin\Debug\Infralution.Localization.Wpf.dll
+D:\вя\dz6\dz6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\вя\dz6\dz6\bin\Debug\Newtonsoft.Json.dll
+D:\вя\dz6\dz6\bin\Debug\System.Buffers.dll
+D:\вя\dz6\dz6\bin\Debug\System.Memory.dll
+D:\вя\dz6\dz6\bin\Debug\System.Numerics.Vectors.dll
+D:\вя\dz6\dz6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\вя\dz6\dz6\bin\Debug\System.Text.Encodings.Web.dll
+D:\вя\dz6\dz6\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\вя\dz6\dz6\bin\Debug\System.ValueTuple.dll
+D:\вя\dz6\dz6\bin\Debug\Infralution.Localization.Wpf.xml
+D:\вя\dz6\dz6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\вя\dz6\dz6\bin\Debug\Newtonsoft.Json.xml
+D:\вя\dz6\dz6\bin\Debug\System.Buffers.xml
+D:\вя\dz6\dz6\bin\Debug\System.Memory.xml
+D:\вя\dz6\dz6\bin\Debug\System.Numerics.Vectors.xml
+D:\вя\dz6\dz6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\вя\dz6\dz6\bin\Debug\System.Text.Encodings.Web.xml
+D:\вя\dz6\dz6\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\вя\dz6\dz6\bin\Debug\System.ValueTuple.xml
+D:\вя\dz6\dz6\obj\Debug\dz6.csproj.AssemblyReference.cache
+D:\вя\dz6\dz6\obj\Debug\dz6.csproj.SuggestedBindingRedirects.cache
+D:\вя\dz6\dz6\obj\Debug\View\MainView.g.cs
+D:\вя\dz6\dz6\obj\Debug\App.g.cs
+D:\вя\dz6\dz6\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\вя\dz6\dz6\obj\Debug\dz6_MarkupCompile.cache
+D:\вя\dz6\dz6\obj\Debug\dz6_MarkupCompile.lref
+D:\вя\dz6\dz6\obj\Debug\View\MainView.baml
+D:\вя\dz6\dz6\obj\Debug\dz6.g.resources
+D:\вя\dz6\dz6\obj\Debug\dz6.Properties.Resources.resources
+D:\вя\dz6\dz6\obj\Debug\dz6.Resources.Resource.resources
+D:\вя\dz6\dz6\obj\Debug\dz6.Resources.Resource.ru-RU.resources
+D:\вя\dz6\dz6\obj\Debug\dz6.Resources.Resource.en-US.resources
+D:\вя\dz6\dz6\obj\Debug\dz6.csproj.GenerateResource.cache
+D:\вя\dz6\dz6\obj\Debug\dz6.csproj.CoreCompileInputs.cache
+D:\вя\dz6\dz6\obj\Debug\ru-RU\dz6.resources.dll
+D:\вя\dz6\dz6\obj\Debug\en-US\dz6.resources.dll
+D:\вя\dz6\dz6\obj\Debug\dz6.csproj.CopyComplete
+D:\вя\dz6\dz6\obj\Debug\dz6.exe
+D:\вя\dz6\dz6\obj\Debug\dz6.pdb
