@@ -23,17 +23,21 @@ namespace Player_Final.ViewModel
 {
 
     class MainModelView : ViewModelBase
-    {
+    {   private String[] args = App.mArgs;
         public MainModelView()
         {
             Playlist = new ObservableCollection<SongFileModel>();
             waveOut = new WaveOutEvent();
+
+            
 
             _timer = new Timer();
             _timer.Interval = 500;
             _timer.Elapsed += Timer_Elapsed;
             _timer.Start();
         }
+
+        
         private ObservableCollection<SongFileModel> _playlist;
         public ObservableCollection<SongFileModel> Playlist
         {
@@ -199,6 +203,23 @@ namespace Player_Final.ViewModel
                 {
                     Playlist.Add(item);
                 }
+            });
+        }
+
+        public RelayCommand AddOnStartCommand
+        {
+            get => new RelayCommand(() =>
+            {
+                var list = new List<SongFileModel>();
+                foreach (var item in args)
+                {
+                    list.Add(new SongFileModel(item));
+                }
+                foreach (var item in list)
+                {
+                    Playlist.Add(item);
+                }
+                
             });
         }
 

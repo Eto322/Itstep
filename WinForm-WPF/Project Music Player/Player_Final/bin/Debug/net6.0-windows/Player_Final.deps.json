@@ -17,14 +17,6 @@
         },
         "runtime": {
           "Player_Final.dll": {}
-        },
-        "resources": {
-          "en-US/Player_Final.resources.dll": {
-            "locale": "en-US"
-          },
-          "ru-RU/Player_Final.resources.dll": {
-            "locale": "ru-RU"
-          }
         }
       },
       "MaterialDesignColors/2.0.4": {

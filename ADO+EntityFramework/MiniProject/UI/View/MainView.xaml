@@ -1,0 +1,114 @@
+﻿<Window x:Class="UI.View.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ViewModel="clr-namespace:UI.ViewModel"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        DataContext="{Binding Source={StaticResource ViewModelModule}, Path=MainViewModel}"
+        mc:Ignorable="d"
+        Title="MainView" Height="460" Width="1000"
+        Style="{StaticResource MaterialDesignWindow}">
+   
+    <Grid>
+        <Grid.ColumnDefinitions>
+           
+        </Grid.ColumnDefinitions>
+
+
+
+        
+
+
+        <materialDesign:Card>
+            <TabControl  TabStripPlacement="Left">>
+            <TabItem Header = "Good"  >
+                <DockPanel>
+
+                    <TextBox DockPanel.Dock="Bottom" Height="25" Text="{Binding SelectedGood.Name, Mode=TwoWay}"></TextBox>
+                    <TextBox DockPanel.Dock="Bottom" Height="25" Text="{Binding SelectedGood.Price,Mode=TwoWay}"></TextBox>
+                    <TextBox DockPanel.Dock="Bottom" Height="25" Text="{Binding SelectedGood.Count,Mode=TwoWay}"></TextBox>
+                    <Button Content="update" DockPanel.Dock="Bottom" Height="30" Command="{Binding ChangeGoodCommand}"></Button>
+                    <Button Content="Add" DockPanel.Dock="Bottom" Command="{Binding AddGoodCommand}"></Button>
+                    <DataGrid DockPanel.Dock="Top" ItemsSource="{Binding Good}" AutoGenerateColumns="False" SelectedItem="{Binding SelectedGood}" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="100" />
+                            <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="100" />
+                            <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="100" />
+                            <DataGridTextColumn Header="Quantity" Binding="{Binding Count}" Width="100" />
+                            <DataGridTemplateColumn Width="150">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                            <Button Content="Delete" Style="{StaticResource MaterialDesignPaperSecondaryButton}" CommandParameter="{Binding Path=Id}"
+                                                Command="{Binding Path=DataContext.DeleteCommandGood,RelativeSource={RelativeSource FindAncestor,
+                                                AncestorType=Window}}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+                            
+
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </DockPanel> 
+                
+                
+            </TabItem>
+            <TabItem Header = "Category" >
+                <DockPanel>
+                    <DataGrid DockPanel.Dock="Top" ItemsSource="{Binding Category}" SelectedItem="{Binding SelectedCategory }" AutoGenerateColumns="False" Height="306" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="100" />
+                            <DataGridTextColumn Header="Description" Binding="{Binding Name}" Width="100" />
+                            <DataGridTemplateColumn Width="150">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                            <Button Content="Delete" Style="{StaticResource MaterialDesignPaperSecondaryButton}" CommandParameter="{Binding Path=Id}"
+                                                Command="{Binding Path=DataContext.DeleteCommandCategory,RelativeSource={RelativeSource FindAncestor,
+                                                AncestorType=Window}}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <TextBox DockPanel.Dock="Bottom" Height="27" Text="{Binding SelectedCategory.Name,Mode=TwoWay}"></TextBox>
+                    <Button Content="update" DockPanel.Dock="Bottom" Height="33" Command="{Binding ChangeCategoryCommand}"></Button>
+                    <Button Content="Add" DockPanel.Dock="Bottom" Command="{Binding AddCategoryCommand}" Height="25"></Button>
+                </DockPanel>
+
+            </TabItem>
+            <TabItem Header = "Manufactor" >
+                <DockPanel>
+                    <DataGrid DockPanel.Dock="Top" ItemsSource="{Binding Maufacturer}" SelectedItem="{Binding SelectedManufacturer}" AutoGenerateColumns="False" Height="307" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="100" />
+                            <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="100" />
+                            <DataGridTemplateColumn Width="150">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                            <Button Content="Delete" Style="{StaticResource MaterialDesignPaperSecondaryButton}"  CommandParameter="{Binding Path=Id}"
+                                                Command="{Binding Path=DataContext.DeleteCommandManufacturer,RelativeSource={RelativeSource FindAncestor,
+                                                AncestorType=Window}}"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <TextBox DockPanel.Dock="Bottom" Height="22" Text="{Binding SelectedManufacturer.Name,Mode=TwoWay}"></TextBox>
+                    <Button Content="update" DockPanel.Dock="Bottom" Height="33" Command="{Binding ChangeManufacturerCommand}"></Button>
+                    <Button Content="Add" DockPanel.Dock="Bottom" Command="{Binding AddManufacturerCommand}" Height="29"></Button>
+                </DockPanel>
+            </TabItem>
+
+        </TabControl>
+        </materialDesign:Card>
+
+
+
+    </Grid>
+</Window>

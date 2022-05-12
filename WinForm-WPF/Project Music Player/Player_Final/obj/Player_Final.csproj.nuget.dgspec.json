@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alejik228\\source\\repos\\Player_Final\\Player_Final\\Player_Final.csproj": {}
+    "D:\\New folder (6)\\Itstep\\WinForm-WPF\\Project Music Player\\Player_Final\\Player_Final.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alejik228\\source\\repos\\Player_Final\\Player_Final\\Player_Final.csproj": {
+    "D:\\New folder (6)\\Itstep\\WinForm-WPF\\Project Music Player\\Player_Final\\Player_Final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alejik228\\source\\repos\\Player_Final\\Player_Final\\Player_Final.csproj",
+        "projectUniqueName": "D:\\New folder (6)\\Itstep\\WinForm-WPF\\Project Music Player\\Player_Final\\Player_Final.csproj",
         "projectName": "Player_Final",
-        "projectPath": "C:\\Users\\Alejik228\\source\\repos\\Player_Final\\Player_Final\\Player_Final.csproj",
-        "packagesPath": "C:\\Users\\Alejik228\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alejik228\\source\\repos\\Player_Final\\Player_Final\\obj\\",
+        "projectPath": "D:\\New folder (6)\\Itstep\\WinForm-WPF\\Project Music Player\\Player_Final\\Player_Final.csproj",
+        "packagesPath": "C:\\Users\\etoak\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder (6)\\Itstep\\WinForm-WPF\\Project Music Player\\Player_Final\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alejik228\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\etoak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -87,7 +87,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

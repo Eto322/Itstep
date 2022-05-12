@@ -1,0 +1,11 @@
+C:\Users\etoak\source\repos\SQldataAdapter\SQldataAdapter\bin\Debug\SQldataAdapter.exe.config
+C:\Users\etoak\source\repos\SQldataAdapter\SQldataAdapter\bin\Debug\SQldataAdapter.exe
+C:\Users\etoak\source\repos\SQldataAdapter\SQldataAdapter\bin\Debug\SQldataAdapter.pdb
+C:\Users\etoak\source\repos\SQldataAdapter\SQldataAdapter\obj\Debug\SQldataAdapter.csproj.AssemblyReference.cache
+C:\Users\etoak\source\repos\SQldataAdapter\SQldataAdapter\obj\Debug\SQldataAdapter.csproj.SuggestedBindingRedirects.cache
+C:\Users\etoak\source\repos\SQldataAdapter\SQldataAdapter\obj\Debug\SQldataAdapter.Form1.resources
+C:\Users\etoak\source\repos\SQldataAdapter\SQldataAdapter\obj\Debug\SQldataAdapter.Properties.Resources.resources
+C:\Users\etoak\source\repos\SQldataAdapter\SQldataAdapter\obj\Debug\SQldataAdapter.csproj.GenerateResource.cache
+C:\Users\etoak\source\repos\SQldataAdapter\SQldataAdapter\obj\Debug\SQldataAdapter.csproj.CoreCompileInputs.cache
+C:\Users\etoak\source\repos\SQldataAdapter\SQldataAdapter\obj\Debug\SQldataAdapter.exe
+C:\Users\etoak\source\repos\SQldataAdapter\SQldataAdapter\obj\Debug\SQldataAdapter.pdb

@@ -22,6 +22,7 @@ namespace Player_Final.View
         public MainView()
         {
             InitializeComponent();
+            String[] args = App.mArgs;
         }
     }
 }
